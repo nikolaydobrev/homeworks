@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class home6 {
+public class h6 {
 
 	public static void main(String[] args) {
 		

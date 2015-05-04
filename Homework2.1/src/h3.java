@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class home3 {
+public class h3 {
 
 	public static void main(String[] args) {
 	Scanner input=new Scanner(System.in,"UTF-8");
@@ -30,12 +30,8 @@ public class home3 {
 	default: System.out.println("The entered stuff isn't number between 0-9");
 	break;
 	
-	
-	
-	
 	}
 	
-
-	}
+  }
 
 }
