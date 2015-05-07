@@ -3,100 +3,38 @@ public class h8 {
 
 	public static void main(String[] args) {
 		
-		Scanner input= new Scanner(System.in, "UTF-8");
-		
-		System.out.print("Enter first number: ");
-		int a1=input.nextInt();
-		System.out.print("Enter second number: ");
-		int a2=input.nextInt();
-		System.out.print("Enter third number: ");
-		int a3=input.nextInt();
-		System.out.print("Enter fourth number: ");
-		int a4=input.nextInt();
-		System.out.print("Enter fifth number: ");
-		int a5=input.nextInt();
-		
-		if(a1>a2){
-			if(a1>a3){
-				if(a1>a4){
-					if(a1>a5){
-						System.out.println("The biggest is "+a1);
-					}
-					else{
-							System.out.println("The biggest is "+a5);
-						}
-						
-					}
-				else{
-					if(a4>a5){
-						System.out.println("The biggest is "+a4);
-					}
-					else{
-						System.out.println("The biggest is "+a3);
-					}
-				}
-			}
-			else{
-				if(a3>a4){
-					if(a3>a5){
-						System.out.println("The biggest is "+a3);
-					}
-					else{
-						System.out.println("The biggest is "+a5);
-					}
-				}
-				if(a4>a5){
-					System.out.println("The biggest is "+a4);
-				}
-				else{
-					System.out.println("The biggest is "+a5);
-				}
-			}
-			
-			
-		}
-		else{
-			if(a2>a3){
-				if(a2>a4){
-					if(a2>a5){
-						System.out.println("The biggest is "+a2);
-					}
-					else{
-						System.out.println("The biggest is "+a5);
-					}
-				}
-				else{
-					if(a4>a5)
-					{
-						System.out.println("The biggest is "+a4);
-					
-					}
-					else{
-						System.out.println("The biggest is "+a5);
-					}
-				}
-				
-			}
-			else{
-				if(a3>a4){
-					if(a3>a5){
-						System.out.println("The biggest is "+a3);
-					}
-					else{
-						System.out.println("The biggest is "+a5);
-					}
-					
-				}
-				else{
-					if(a4>a5){
-						System.out.println("The biggest is "+a4);
-					}
-					else{
-						System.out.println("The biggest is "+a5);
-					}
-				}
-			}
-		}
+		Scanner input= new Scanner(System.in,"UTF-8");
+		System.out.println("Enter first number: ");
+		int num1=input.nextInt();
+        
+        System.out.println("Enter second number: ");
+        int num2=input.nextInt();
+        
+        System.out.println("Enter third number: ");
+        int num3=input.nextInt();
+        
+        System.out.println("Enter fourth number: ");
+        int num4=input.nextInt();
+        
+        System.out.println("Enter fift number: ");
+        int num5=input.nextInt();
+
+        int i=num1;
+        
+        if(i<num2){
+        	i=num2;
+        }
+        if(i<num3){
+        	i=num3;
+        }
+        if(i<num4){
+        	i=num4;
+        }
+        if(i<num5){
+        	i=num5;
+        }
+        System.out.println("Biggest is:"+i);
+       
 		
 
 	}

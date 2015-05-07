@@ -1,28 +1,38 @@
 
+
 public class h2 {
 
 	public static void main(String[] args) {
+
+
 		int a=6;
-		int b=3;
+		int b=7;
 		int c=7;
-		if(a>b){
-			if(a>c){
-				System.out.println("The is biggest:"+a);
+		int i=0;
+		a=i;
+		if(b>i){
+			i=b;
+			if(c>i){
+				i=c;
+				System.out.println("The biggest is "+i);
+				
 			}
 			else{
-				System.out.println("The is biggest:"+c);
+				System.out.println("The biggest is "+i);
 			}
-				
+		}
+		else if(c>i){
+			i=c;
+			System.out.println("The biggest is "+i);
 		}
 		else{
-			if(b>c){
-				System.out.println("The is biggest:"+b);
-			}
-			else{
-				System.out.println("The is biggest:"+c);
-			}
+			System.out.println("The biggest is "+i);
 		}
+			
+		
 
 	}
 
 }
+
+
