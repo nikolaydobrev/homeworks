@@ -1,6 +1,6 @@
 
-public class Car {
-	int price;
+public abstract class Car {
+	protected int price;
 	
 	public Car(int price){
 		this.price=price;
